@@ -1,24 +1,31 @@
 // This is the styling for the About page
 
+// We will need all of the half widths for the mobile design
+// Since we are designing for mobile first I will leave them commented in
+
+.beginning-body {
+    margin-top: 350px;
+    .display-flex();
+    flex-wrap: wrap;
+}
+
 .body-piece-1 {
-   .display-flex();
-   flex-direction: column;
    border: 1px solid blue;
-   width: 50%;
+   width: 400px;
+   .half-width();
 }
 
 .body-piece-2 {
-   .display-flex();
    border: 1px solid red;
-   width: 50%;
+   .half-width();
 }
 
 .body-piece-3 {
-    .display-flex();
     border: 1px solid yellow;
+    .half-width();
 }
 
 .body-piece-4 {
-    .display-flex();
     border: 1px solid green;
+    .half-width();
 }

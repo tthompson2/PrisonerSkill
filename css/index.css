@@ -1,6 +1,12 @@
 .maximum-width {
   width: 100%;
 }
+.half-width {
+  width: 50%;
+}
+.quarter-width {
+  width: 25%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -180,22 +186,25 @@ nav a {
   border: 1px solid #000000;
   border-radius: 10px;
 }
-.body-piece-1 {
+.beginning-body {
+  margin-top: 350px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+.body-piece-1 {
   border: 1px solid blue;
+  width: 400px;
   width: 50%;
 }
 .body-piece-2 {
-  display: flex;
   border: 1px solid red;
   width: 50%;
 }
 .body-piece-3 {
-  display: flex;
   border: 1px solid yellow;
+  width: 50%;
 }
 .body-piece-4 {
-  display: flex;
   border: 1px solid green;
+  width: 50%;
 }
