@@ -139,6 +139,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav-container {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  margin: 10px;
+}
+.nav-container a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
 * {
   box-sizing: border-box;
 }
@@ -172,26 +183,6 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  background: #FFFFFF;
-  color: #000000;
-  margin-top: 2%;
-}
-nav a {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #000000;
-  text-decoration: none;
-  width: 10%;
-  border: 1px solid #000000;
-  border-radius: 10px;
 }
 .beginning-body {
   margin-top: 350px;
