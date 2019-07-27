@@ -8,13 +8,25 @@
 // }
 
 .nav-container {
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: space-between;
-    margin: 10px;
-    a {
-        text-decoration: none;
-        color: @txt-color;
-        padding: 10px;
+    @media @desktop {
+      display: flex;
+      flex-flow: row-reverse;
+      justify-content: space-between;
+      margin: 15px 0 0 15px;
+      .maximum-width;
+    
+      a {
+          text-decoration: none;
+          color: @txt-color;
+          background-color: @bg-color;
+          padding: 10px;
+          margin: 15px;
+          border: 1px solid black;
+          border-radius: 15%;
+      }
+    }
+
+    @media @tablets {
+        
     }
 }

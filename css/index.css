@@ -139,16 +139,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.nav-container {
-  display: flex;
-  flex-flow: row-reverse;
-  justify-content: space-between;
-  margin: 10px;
-}
-.nav-container a {
-  text-decoration: none;
-  color: #000000;
-  padding: 10px;
+@media (min-width: 1000px) {
+  .nav-container {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    margin: 15px 0 0 15px;
+    width: 100%;
+  }
+  .nav-container a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 15%;
+  }
 }
 * {
   box-sizing: border-box;
