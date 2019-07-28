@@ -155,6 +155,9 @@
   align-items: center;
   padding: 15px;
 }
+.tiny-view-footer p {
+  font-weight: 700;
+}
 .tiny-view-footer a {
   text-decoration: none;
   font-size: 1.5rem;
@@ -181,7 +184,21 @@
   font-weight: 700;
   font-size: 1.5rem;
 }
-.tablet-view-footer .fa {
+.tablet-view-footer a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 5px 10px;
+  padding: 3px 5px 3px 5px;
+}
+.tablet-view-footer a:hover {
+  background-color: black;
+  color: white;
+  transition: 300ms;
+}
+.tablet-view-footer a:active {
+  background-color: #666666;
+}
+.tablet-view-footer a .fa {
   padding: 15px;
   font-size: 2rem;
   width: 50px;
@@ -190,13 +207,13 @@
   margin: 5px 2px;
   opacity: 0.7;
 }
-.tablet-view-footer .fa-facebook {
+.tablet-view-footer a .fa-facebook {
   color: black;
 }
-.tablet-view-footer .fa-twitter {
+.tablet-view-footer a .fa-twitter {
   color: black;
 }
-.tablet-view-footer .fa-linkedin {
+.tablet-view-footer a .fa-linkedin {
   color: black;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -636,7 +653,12 @@ test .body-piece-2 {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  border: 2px solid red;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+.footer-container p {
+  font-weight: 700;
 }
 .footer-container a {
   text-decoration: none;
@@ -665,7 +687,21 @@ test .body-piece-2 {
     font-weight: 700;
     font-size: 1.5rem;
   }
-  .footer-container .fa {
+  .footer-container a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 5px 10px;
+    padding: 3px 5px 3px 5px;
+  }
+  .footer-container a:hover {
+    background-color: black;
+    color: white;
+    transition: 300ms;
+  }
+  .footer-container a:active {
+    background-color: #666666;
+  }
+  .footer-container a .fa {
     padding: 15px;
     font-size: 2rem;
     width: 50px;
@@ -674,13 +710,13 @@ test .body-piece-2 {
     margin: 5px 2px;
     opacity: 0.7;
   }
-  .footer-container .fa-facebook {
+  .footer-container a .fa-facebook {
     color: black;
   }
-  .footer-container .fa-twitter {
+  .footer-container a .fa-twitter {
     color: black;
   }
-  .footer-container .fa-linkedin {
+  .footer-container a .fa-linkedin {
     color: black;
   }
 }

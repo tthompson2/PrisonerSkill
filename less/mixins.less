@@ -235,10 +235,13 @@
     min-width: 100%;
     height: 80px;
     background-color: #DDDDDD;
-    // flex-flow: column-reverse;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+
+    p {
+        font-weight: 700;
+    }
     
     a {
         text-decoration: none;
@@ -273,7 +276,21 @@
         font-size: 1.5rem;
     }
 
-    
+    a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 5px 10px;
+        padding: 3px 5px 3px 5px;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            transition: 300ms;
+        }
+
+        &:active {
+            background-color: #666666;
+        }
 
     .fa {
         padding: 15px;
@@ -299,4 +316,5 @@
       .fa-linkedin {
           color: black;
       }
+}
 }
