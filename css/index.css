@@ -575,3 +575,18 @@ test .body-piece-2 {
 .grid2 .grid-left p {
   margin-top: 10%;
 }
+.footer-container {
+  border: 2px solid red;
+}
+.footer-container .fa {
+  padding: 15px;
+  font-size: 2rem;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  opacity: 0.6;
+}
+.footer-container .fa-facebook {
+  color: black;
+}
