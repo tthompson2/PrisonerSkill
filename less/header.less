@@ -2,7 +2,17 @@
 
 .container-header {
     .tiny-view-header;
-    border: 1px solid red;
+    @media @phones {
+        .phone-view-header;
+    }
+
+    @media @tablets {
+        .tablet-view-header;
+    }
+
+    @media @desktop {
+        .desktop-view-header;
+    }
     // max-width: 100%;
     // height: 500px;
     // background-image: url("../images/tools.jpeg");
