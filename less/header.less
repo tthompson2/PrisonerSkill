@@ -1,1 +1,17 @@
 // This is the styling for the header page. It is still to be determined whether this for all of the HTML pages of just the about ones
+
+.container-header {
+    .tiny-view-header; //For screens 500px and smaller
+    @media @phones {
+        .phone-view-header; // 500px and larger
+    }
+
+    @media @tablets { //800px and larger
+        .tablet-view-header;
+    }
+
+    @media @desktop { //1000px and larger
+        .desktop-view-header;
+    }
+
+}
