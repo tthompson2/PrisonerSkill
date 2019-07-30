@@ -625,13 +625,15 @@ p {
   margin: 0 auto;
 }
 .beginning-body {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
 }
 .body-pieces {
   padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: 2px solid black;
   padding-bottom: 50px;
   width: 50%;
@@ -645,6 +647,8 @@ p {
 }*/
 .body-designer {
   padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: 2px solid black;
   padding-bottom: 50px;
 }
