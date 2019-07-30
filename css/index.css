@@ -220,7 +220,6 @@
 .tiny-view-header {
   width: 100%;
   height: 500px;
-  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -246,7 +245,6 @@
 .phone-view-header {
   width: 100%;
   height: 500px;
-  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -272,7 +270,6 @@
 .tablet-view-header {
   width: 100%;
   height: 500px;
-  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -298,7 +295,6 @@
 .desktop-view-header {
   width: 100%;
   height: 500px;
-  background-image: url("../images/workbench.jpeg");
   background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
@@ -670,6 +666,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 10%;
 }
 .grid .grid-right {
   display: flex;
@@ -716,6 +713,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 10%;
   margin-bottom: 30%;
 }
 .grid2 .grid-right {
@@ -728,6 +726,8 @@ p {
   margin-top: 10%;
   padding-right: 10%;
   border-right: 1px solid black;
+  border: 0;
+  padding: 0;
 }
 .grid2 .grid-right img {
   width: 30%;
@@ -757,10 +757,147 @@ p {
 .grid2 .grid-left p {
   margin-top: 10%;
 }
+@media (min-width: 500px) {
+  .grid {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 0 0 0;
+    padding: 0;
+    border: 0;
+  }
+  .grid .grid-left {
+    border: 0;
+    margin: 10% 0 0 0;
+    padding: 0;
+    width: 100%;
+  }
+  .grid .grid-right {
+    border: 0;
+    margin: 10% 0 0 0;
+    padding: 0;
+    width: 100%;
+  }
+  .grid2 {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 0 10% 0;
+    padding: 0;
+    border: 0;
+  }
+  .grid2 .grid-left {
+    border: 0;
+    margin: 10% 0 0 0;
+    padding: 0;
+    width: 100%;
+  }
+  .grid2 .grid-right {
+    border: 0;
+    margin: 10% 0 0 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .grid {
+    flex-direction: row;
+  }
+  .grid .grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-left: 10%;
+  }
+  .grid .grid-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-right: 10%;
+    border-right: 1px solid black;
+  }
+  .grid2 {
+    flex-direction: row;
+  }
+  .grid2 .grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-left: 10%;
+  }
+  .grid2 .grid-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-right: 10%;
+    border-right: 1px solid black;
+    border: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .grid .grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-left: 10%;
+  }
+  .grid .grid-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-right: 10%;
+    border-right: 1px solid black;
+  }
+  .grid2 .grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-left: 10%;
+  }
+  .grid2 .grid-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-right: 10%;
+    border-right: 1px solid black;
+    border: 0;
+    padding: 0;
+  }
+}
 .container-header {
   width: 100%;
   height: 500px;
-  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -768,6 +905,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/workbench.jpeg");
 }
 .container-header p {
   text-align: center;
@@ -787,7 +925,6 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
-    background-image: url("../images/workbench.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -795,6 +932,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/workbench.jpeg");
   }
   .container-header p {
     text-align: center;
@@ -815,7 +953,6 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
-    background-image: url("../images/workbench.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -823,6 +960,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/workbench.jpeg");
   }
   .container-header p {
     text-align: center;
@@ -843,7 +981,6 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
-    background-image: url("../images/workbench.jpeg");
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
@@ -852,6 +989,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/workbench.jpeg");
   }
   .container-header p {
     text-align: center;
