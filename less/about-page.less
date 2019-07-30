@@ -4,33 +4,33 @@
 // Since we are designing for mobile first I will leave them commented in
 
 .beginning-body {
-    margin-top: 350px;
+    margin-top: 100px;
+    margin-bottom: 80px;
     .display-flex();
     flex-wrap: wrap;
 }
 
-.body-piece-1 {
-   border: 1px solid blue;
-   width: 400px;
-   .half-width();
-}
-
-.body-piece-2 {
-   .half-width();
-   border: 1px solid red;
-}
-
-.body-piece-3 {
-    border: 1px solid yellow;
+.body-pieces {
+    .body-designer();
     .half-width();
+    .adapted-h3();
 }
 
-.body-piece-4 {
-    border: 1px solid green;
-    .half-width();
+/*.img-display(){
+        padding-bottom: 100px;
+}*/
+
+.adapted-h3(){
+    h3 {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 }
 
-.img-display(){
-        margin-top: 20px;
-        margin-bottom: 20px;
+.body-designer {
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    padding-bottom: 50px;
 }
