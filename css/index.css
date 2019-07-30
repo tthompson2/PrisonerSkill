@@ -625,15 +625,20 @@ p {
   margin: 0 auto;
 }
 .beginning-body {
-  margin-top: 350px;
+  margin-top: 100px;
+  margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
 }
-.body-piece-1 {
-  border: 1px solid blue;
-  width: 400px;
+.body-pieces {
+  padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px solid black;
+  padding-bottom: 50px;
   width: 50%;
 }
+<<<<<<< HEAD
 .body-piece-2 {
   width: 50%;
   border: 1px solid red;
@@ -645,6 +650,21 @@ p {
 .body-piece-4 {
   border: 1px solid green;
   width: 50%;
+=======
+.body-pieces h3 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+/*.img-display(){
+        padding-bottom: 100px;
+}*/
+.body-designer {
+  padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px solid black;
+  padding-bottom: 50px;
+>>>>>>> 7faed79ac763e3ae31c901e5b35df93c2d806e10
 }
 .body {
   display: flex;
