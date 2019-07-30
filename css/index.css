@@ -724,6 +724,8 @@ p {
   margin-top: 10%;
   padding-right: 10%;
   border-right: 1px solid black;
+  border: 0;
+  padding: 0;
 }
 .grid2 .grid-right img {
   width: 30%;
@@ -841,12 +843,11 @@ p {
     margin-top: 10%;
     padding-right: 10%;
     border-right: 1px solid black;
+    border: 0;
+    padding: 0;
   }
 }
 @media (min-width: 1000px) {
-  .grid {
-    flex-direction: row;
-  }
   .grid .grid-left {
     display: flex;
     flex-direction: column;
@@ -868,9 +869,6 @@ p {
     padding-right: 10%;
     border-right: 1px solid black;
   }
-  .grid2 {
-    flex-direction: row;
-  }
   .grid2 .grid-left {
     display: flex;
     flex-direction: column;
@@ -891,6 +889,8 @@ p {
     margin-top: 10%;
     padding-right: 10%;
     border-right: 1px solid black;
+    border: 0;
+    padding: 0;
   }
 }
 .container-header {
