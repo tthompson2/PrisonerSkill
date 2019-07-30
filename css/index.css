@@ -776,7 +776,7 @@ p {
   .grid2 {
     flex-direction: column;
     justify-content: center;
-    margin: 10% 0 0 0;
+    margin: 10% 0 10% 0;
     padding: 0;
     border: 0;
   }
@@ -794,7 +794,10 @@ p {
   }
 }
 @media (min-width: 800px) {
-  .grid-left {
+  .grid {
+    flex-direction: row;
+  }
+  .grid .grid-left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -804,7 +807,31 @@ p {
     margin-top: 10%;
     padding-left: 10%;
   }
-  .grid-right {
+  .grid .grid-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-right: 10%;
+    border-right: 1px solid black;
+  }
+  .grid2 {
+    flex-direction: row;
+  }
+  .grid2 .grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 45%;
+    margin-top: 10%;
+    padding-left: 10%;
+  }
+  .grid2 .grid-right {
     display: flex;
     flex-direction: column;
     align-items: center;

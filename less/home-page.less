@@ -112,7 +112,7 @@
     .grid2 {
         flex-direction: column;
         justify-content: center;
-        margin: 10% 0 0 0;
+        margin: 10% 0 10% 0;
         padding: 0;
         border: 0;
 
@@ -134,11 +134,27 @@
 
 
 @media @tablets {
-    .grid-left {
-        .left();
+    .grid {
+        flex-direction: row;
+        
+        .grid-left {
+            .left();
+        }
+    
+        .grid-right {
+            .right();
+        }
     }
 
-    .grid-right {
-        .right();
+    .grid2 {
+        flex-direction: row;
+        
+        .grid-left {
+            .left();
+        }
+    
+        .grid-right {
+            .right();
+        }
     }
 }
