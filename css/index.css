@@ -220,6 +220,7 @@
 .tiny-view-header {
   width: 100%;
   height: 500px;
+  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -245,6 +246,7 @@
 .phone-view-header {
   width: 100%;
   height: 500px;
+  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -270,6 +272,7 @@
 .tablet-view-header {
   width: 100%;
   height: 500px;
+  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -295,6 +298,7 @@
 .desktop-view-header {
   width: 100%;
   height: 500px;
+  background-image: url("../images/workbench.jpeg");
   background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
@@ -898,6 +902,7 @@ p {
 .container-header {
   width: 100%;
   height: 500px;
+  background-image: url("../images/workbench.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -905,7 +910,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/workbench.jpeg");
 }
 .container-header p {
   text-align: center;
@@ -925,6 +929,7 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
+    background-image: url("../images/workbench.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -932,7 +937,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/workbench.jpeg");
   }
   .container-header p {
     text-align: center;
@@ -953,6 +957,7 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
+    background-image: url("../images/workbench.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -960,7 +965,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/workbench.jpeg");
   }
   .container-header p {
     text-align: center;
@@ -981,6 +985,7 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
+    background-image: url("../images/workbench.jpeg");
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
@@ -989,7 +994,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/workbench.jpeg");
   }
   .container-header p {
     text-align: center;
