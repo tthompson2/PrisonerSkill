@@ -1,25 +1,47 @@
 // This is the styling for the About page
 
 .beginning-body {
-    margin-top: 100px;
-    margin-bottom: 80px;
-    .display-flex();
-    flex-wrap: wrap;
 
     @media @phones {
         .display-flex();
         flex-direction: column;
     }
+
+    @media @tablets {
+        .display-flex();
+        flex-wrap: wrap;
+        margin-top: 75px;
+        margin-bottom: 60px;
+    }
+
+    @media @desktop {
+        margin-top: 100px;
+        margin-bottom: 80px;
+        .display-flex();
+        flex-wrap: wrap;
+
+    }
 }
 
 .body-pieces {
-    .body-designer();
-    .half-width();
-    .adapted-h3();
 
     @media @phones {
         .maximum-width();
         .adapted-h3();
+        .body-designer();
+    }
+
+    @media @tablets {
+        .adapted-h3();
+        .body-designer();
+        .half-width();
+    }
+
+    @media @desktop {
+        .body-designer();
+        .half-width();
+        .adapted-h3();
+
     }
 }
 
