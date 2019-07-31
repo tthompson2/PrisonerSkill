@@ -638,18 +638,6 @@ p {
   padding-bottom: 50px;
   width: 50%;
 }
-.body-piece-2 {
-  width: 50%;
-  border: 1px solid red;
-}
-.body-piece-3 {
-  border: 1px solid yellow;
-  width: 50%;
-}
-.body-piece-4 {
-  border: 1px solid green;
-  width: 50%;
-}
 .body-pieces h3 {
   padding-top: 10px;
   padding-bottom: 15px;

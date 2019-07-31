@@ -1,24 +1,27 @@
 // This is the styling for the About page
 
-// We will need all of the half widths for the mobile design
-// Since we are designing for mobile first I will leave them commented in
-
 .beginning-body {
     margin-top: 100px;
     margin-bottom: 80px;
     .display-flex();
     flex-wrap: wrap;
+
+    @media @phones {
+        .display-flex();
+        flex-direction: column;
+    }
 }
 
 .body-pieces {
     .body-designer();
     .half-width();
     .adapted-h3();
-}
 
-/*.img-display(){
-        padding-bottom: 100px;
-}*/
+    @media @phones {
+        .maximum-width();
+        .adapted-h3();
+    }
+}
 
 .adapted-h3(){
     h3 {
