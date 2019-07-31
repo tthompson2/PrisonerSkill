@@ -638,9 +638,6 @@ p {
   padding-bottom: 50px;
   width: 50%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .body-piece-2 {
   width: 50%;
   border: 1px solid red;
@@ -652,12 +649,7 @@ p {
 .body-piece-4 {
   border: 1px solid green;
   width: 50%;
-=======
-=======
-
->>>>>>> 16bdc7909b6d10d29cc155100f15769e2c689377
-=======
->>>>>>> 6cdb7d06d2b0ce586067e0f86e435746a7b7be97
+}
 .body-pieces h3 {
   padding-top: 10px;
   padding-bottom: 15px;
@@ -671,14 +663,6 @@ p {
   padding-right: 5px;
   border: 2px solid black;
   padding-bottom: 50px;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7faed79ac763e3ae31c901e5b35df93c2d806e10
-=======
-
->>>>>>> 16bdc7909b6d10d29cc155100f15769e2c689377
-=======
->>>>>>> 6cdb7d06d2b0ce586067e0f86e435746a7b7be97
 }
 .body {
   display: flex;
