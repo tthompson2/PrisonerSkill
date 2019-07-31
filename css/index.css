@@ -158,6 +158,7 @@
 }
 .tiny-view-footer p {
   font-weight: 700;
+  font-size: 1em;
 }
 .tiny-view-footer a {
   text-decoration: none;
@@ -179,7 +180,7 @@
   background-color: #666666;
 }
 .tiny-view-footer .fa {
-  padding: 10px 15px;
+  padding: 5px;
 }
 .tablet-view-footer p {
   font-weight: 700;
@@ -1024,6 +1025,7 @@ p {
 }
 .footer-container p {
   font-weight: 700;
+  font-size: 1em;
 }
 .footer-container a {
   text-decoration: none;
@@ -1045,7 +1047,7 @@ p {
   background-color: #666666;
 }
 .footer-container .fa {
-  padding: 10px 15px;
+  padding: 5px;
 }
 @media (min-width: 800px) {
   .footer-container p {
