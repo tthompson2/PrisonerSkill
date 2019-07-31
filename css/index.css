@@ -298,7 +298,7 @@
 .desktop-view-header {
   width: 100%;
   height: 500px;
-  background-image: url("/images/workbench.jpeg");
+  background-image: url("../images/workbench.jpeg");
   background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
@@ -640,6 +640,7 @@ p {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .body-piece-2 {
   width: 50%;
   border: 1px solid red;
@@ -655,6 +656,8 @@ p {
 =======
 
 >>>>>>> 16bdc7909b6d10d29cc155100f15769e2c689377
+=======
+>>>>>>> 6cdb7d06d2b0ce586067e0f86e435746a7b7be97
 .body-pieces h3 {
   padding-top: 10px;
   padding-bottom: 15px;
@@ -669,10 +672,13 @@ p {
   border: 2px solid black;
   padding-bottom: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7faed79ac763e3ae31c901e5b35df93c2d806e10
 =======
 
 >>>>>>> 16bdc7909b6d10d29cc155100f15769e2c689377
+=======
+>>>>>>> 6cdb7d06d2b0ce586067e0f86e435746a7b7be97
 }
 .body {
   display: flex;
@@ -1007,7 +1013,7 @@ p {
   .container-header {
     width: 100%;
     height: 500px;
-    background-image: url("/images/workbench.jpeg");
+    background-image: url("../images/workbench.jpeg");
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
