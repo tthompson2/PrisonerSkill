@@ -332,7 +332,6 @@
 .desktop-view-header h1 {
   text-align: center;
   color: #888888;
-  font-family: "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 4rem;
   margin-top: 5px;
@@ -1083,7 +1082,6 @@ p {
   .container-header h1 {
     text-align: center;
     color: #888888;
-    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
     font-size: 4rem;
     margin-top: 5px;
