@@ -645,6 +645,7 @@ p {
     flex-direction: column;
   }
 }
+
 @media (min-width: 800px) {
   .beginning-body {
     display: flex;
@@ -664,6 +665,7 @@ p {
 .body-pieces {
   width: 100%;
 }
+
 .body-pieces h3 {
   padding-top: 10px;
   padding-bottom: 15px;
@@ -852,12 +854,6 @@ p {
     margin: 10% 0 10% 0;
     padding: 0;
     border: 0;
-  }
-  .grid2 .grid-left {
-    border: 0;
-    margin: 10% 0 0 0;
-    padding: 0;
-    width: 100%;
   }
   .grid2 .grid-right {
     border: 0;
