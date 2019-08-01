@@ -644,6 +644,7 @@ p {
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 .body-pieces {
@@ -652,6 +653,7 @@ p {
 .body-pieces h3 {
   padding-top: 10px;
   padding-bottom: 15px;
+  text-align: center;
 }
 @media (min-width: 500px) {
   .body-pieces {
@@ -665,6 +667,7 @@ p {
   .body-pieces h3 {
     padding-top: 10px;
     padding-bottom: 15px;
+    text-align: center;
   }
 }
 @media (min-width: 800px) {
@@ -679,6 +682,7 @@ p {
   .body-pieces h3 {
     padding-top: 10px;
     padding-bottom: 15px;
+    text-align: center;
   }
 }
 @media (min-width: 1000px) {
@@ -693,6 +697,7 @@ p {
   .body-pieces h3 {
     padding-top: 10px;
     padding-bottom: 15px;
+    text-align: center;
   }
 }
 .body-designer {
@@ -701,6 +706,11 @@ p {
   padding-right: 5px;
   border: 2px solid black;
   padding-bottom: 50px;
+}
+.img-display {
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 .body {
   display: flex;
