@@ -12,7 +12,7 @@
         flex-wrap: wrap;
         margin-top: 75px;
         margin-bottom: 60px;
-    }
+    } 
 
     @media @desktop {
         margin-top: 100px;
@@ -25,16 +25,19 @@
 
 .body-pieces {
 
+    .adapted-h3();
+    .maximum-width();
+
     @media @phones {
         .maximum-width();
         .adapted-h3();
         .body-designer();
-    }
+    } 
 
     @media @tablets {
         .adapted-h3();
         .body-designer();
-        .half-width();
+        .maximum-width();
     }
 
     @media @desktop {
@@ -42,7 +45,7 @@
         .half-width();
         .adapted-h3();
 
-    }
+    } 
 }
 
 .adapted-h3(){
