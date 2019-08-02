@@ -723,8 +723,7 @@ p {
 }
 .img-display {
   display: flex;
-  align-content: center;
-  align-items: center;
+  justify-content: center;
 }
 .body {
   display: flex;
